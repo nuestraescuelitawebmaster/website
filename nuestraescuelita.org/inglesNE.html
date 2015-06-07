@@ -1,0 +1,319 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+<title>Cursos NE</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42600327-1', 'nuestraescuelita.org');
+  ga('send', 'pageview');
+
+</script>
+<script>
+
+// Javascript originally by Patrick Griffiths and Dan Webb.
+// http://htmldog.com/articles/suckerfish/dropdowns/
+sfHover = function() {
+   var sfEls = document.getElementById("navbar").getElementsByTagName("li");
+   for (var i=0; i<sfEls.length; i++) {
+      sfEls[i].onmouseover=function() {
+         this.className+=" hover";
+      }
+      sfEls[i].onmouseout=function() {
+         this.className=this.className.replace(new RegExp(" hover\\b"), "");
+      }
+   }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+</script>
+
+<!-- Lo siguiente es el programita de validacion del numero de caracteres de la caja de texto del comentario
+-->
+
+<script language="javascript" type="text/javascript">
+function limitText(limitField, limitCount, limitNum) {
+	if (limitField.value.length > limitNum) {
+		limitField.value = limitField.value.substring(0, limitNum);
+	} else {
+		limitCount.value = limitNum - limitField.value.length;
+	}
+}
+</script>
+<style type="text/css">
+
+#wrap {
+   font-size: 1.3em;
+   width: 500px;
+   height:20px;
+   padding: 5px;
+   margin: 0 auto; 
+   background-color: #FFFFCC;
+   position: absolute;
+   top:110px;
+   left:10px;
+   align:left; 
+   font-size:10pt;
+   font-family: "comic Sans MS", sans-serif, Arial, Helvetica ;
+   z-index:3;
+}
+
+/* These styles create the dropdown menus. */
+#navbar {
+   margin: 0;
+   padding: 0;
+   height: 1em; }
+#navbar li {
+   list-style: none;
+   float: left; }
+#navbar li a {
+   display: block;
+   padding: 3px 8px;
+   background-color: #FFFFCC;
+   color: blue;
+
+   text-decoration: none; }
+#navbar li ul {
+   display: none; 
+   width: 10em; /* Width to help Opera out */
+   background-color: #FFFFCC;}
+#navbar li:hover ul, #navbar li.hover ul {
+   display: block;
+   position: absolute;
+   margin: 0;
+   padding: 0; }
+#navbar li:hover li, #navbar li.hover li {
+   float: none; }
+#navbar li:hover li a, #navbar li.hover li a {
+   background-color: #69f;
+   border-bottom: 1px solid #fff;
+   color: white; }
+#navbar li li a:hover {
+   background-color: #8db3ff; }
+
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: none}
+
+
+div.central{
+position:relative;
+top:10px;
+width:700px;
+height:950px;
+background:#FFFFCC;
+}
+
+
+
+div.diva_heading2
+{
+position:absolute;
+top:40px;
+left:27px;
+z-index:2;
+}
+
+
+
+div.tren
+{
+width:200px;
+height:75px;
+position:absolute;
+top:5px;
+left:420px;
+z-index:4;
+
+}
+
+div.titulo
+{
+width: 680px ;
+height:30px;
+position:absolute;
+top:0px;
+left:20px;
+z-index:2;
+}
+
+div.rectangulo{
+width: 400px ;
+height:80px;
+position:absolute;
+top:25px;
+left:10px;
+z-index:1;
+background:green;
+}
+
+#ddimagetabs
+{
+position:absolute;
+top:120px;
+left:20px;
+z-index:2;
+}
+
+p.p1 
+{
+font-size:26px;
+color:white;
+font-family:comic Sans MS;
+}
+
+
+p.subpagina
+{
+font-family:"comic Sans MS",Arial, "Times New Romans";  
+font-size:12Pt; 
+color:#663300;
+align:left;
+} 
+
+p.normal
+{
+font-family:"comic Sans MS",Arial, "Times New Romans";  
+font-size:10Pt; 
+color:#663300;
+align:justify;
+
+} 
+
+
+div.direccion
+{
+position:absolute;
+top:160px;
+left:40px;
+width:420px;
+}
+
+div.mapa 
+{
+padding-left:30px;
+float:right;
+}
+
+
+div.pie 
+{
+position:absolute;
+top:700px;
+width:600px;
+left:0px;
+padding:10px;
+}
+
+</style>
+
+</head>
+
+<body  "bgcolor:"#FF0000" background="../images/Playtime_background_yellow.jpg"> 
+
+
+<div align="center">
+<div class="central">
+
+
+<div class="diva_heading2">
+
+<img src="../images/Kids_green_header_02.png" height="60px" width="650px"/>
+
+<div class="titulo">
+<p class="p1" align="left"><b>Welcome Letter</b></p>
+</div>
+
+<div class="tren" >
+<img src="../images/trenLogo.png" width="195px" height="50px" />
+<!-- Es 300x77 -->
+</div>
+
+</div>
+
+<div class="rectangulo">
+
+</div>
+
+
+
+<div id="wrap">      
+<ul id="navbar">
+
+      <!-- The strange spacing herein prevents an IE6 whitespace bug. -->
+         
+<li><a href="../index.html">Home</a>
+         </li>
+         
+         
+<li> <a href="../generalNE.html"> General</a>
+<ul>
+               <li> <a href="../generalNE.html#1"> Qui&eacute;nes somos</a></li><li>
+               <a href="../generalNE.html#2"> Participaci&oacute;n</a></li><li>
+               <a href="../generalNE.html#3"> Instalaciones</a></li><li>
+               <a href="../generalNE.html#4"> Preguntas </a></li></ul>         
+         </li>
+         
+<li> <a href="../cursosNE.html"> Cursos</a></li>
+<ul>
+               <li> <a href="../cursosNE.html#1"> El Jard&iacute;n</a></li><li>
+               <a href="../cursosNE.html#2"> Peque&ntilde;os</a></li><li>
+               <a href="../cursosNE.html#3"> Grandes</a></li><li>
+               <a href="../cursosNE.html#4"> 6 a 8 a&ntilde;os</a></li></ul>         
+         </li>
+         <li> <a href="../amigosNE.html"> Amigos</a></li>
+         <li> <a href="../miescuelitaNE.html"> Mi Escuelita</a></li>
+
+         <li> <a href="../contactosNE.html"> Contactos</a></li>
+            
+      </ul>
+
+         </div>
+
+
+
+<div class="direccion" >
+
+<div class="texto">
+
+
+<p class="normal" align="justify">
+<br><br>
+<b>Welcome and thank you for your interest in Nuestra Escuelita!</b>
+<br><br><br>
+
+Nuestra Escuelita is a Spanish language preschool that serves the entire South Bay community.  Our preschool, a registered non-profit organization, was founded in the year 2001 by a group of parents who wanted to pass on the gift of Spanish language to their children.  As such, all instruction is in Spanish. 
+<br><br>
+Nuestra Escuelita is a parent-participation preschool and as such, parents take turns working with the children in the classroom, cleaning and maintaining all areas of the school, and assisting the teachers in developing an age-appropriate curriculum.  We offer a play-based preschool program, several “mommy and me” classes and an after school program for older children. Our mission is to support Spanish-speaking children as they continue to develop their language skills while preparing them for kindergarten and beyond. Our program is designed to facilitate the total development of each child while creating a community where Spanish-speaking families can play, learn and support one another.  
+<br><br>
+Our fundraising efforts are to help us maintain a safe, clean, and stimulating environment where our children can flourish.  Monies from fundraising also help us to provide scholarships to families who may not otherwise be able to attend Nuestra Escuelita. We would very much appreciate your support in our efforts to provide best preschool experience that we can for our children.  We can provide our non-profit tax I.D. number to sponsors.  Please feel free to contact of us if you have questions or require additional information.  Thank you very much for your support.  We hope to hear from you soon.
+<br> <br>
+Sincerely,
+Elizabeth Wells-Aguilar<br>
+Fundraising Chairperson<br>
+Nuestra Escuelita
+
+</p>
+
+</div>
+
+<div class="pie">
+
+<p class="p2" align="justify" style="font-size:8Pt; font-family:Arial;">
+Nuestra Escuelita admits students of any race, color, national and ethnic origin to all the rights, privileges, programs, and activities generally accorded or made available to students of the school. It does not discriminate on the basis of race, color, national or ethnic origin in administration of its educational policies, admissions policies, scholarship and loan programs, and athletic and other school administered programs
+</p>
+</div>
+
+
+</div>
+</div>
+
+
+</body>
+</html>
+
+<!-- text below generated by server. PLEASE REMOVE --><!-- Counter/Statistics data collection code --><script language="JavaScript" src="http://us.js2.yimg.com/us.js.yimg.com/lib/smb/js/hosting/cp/js_source/whv2_001.js"></script><script language="javascript">geovisit();</script><noscript><img src="http://visit.webhosting.yahoo.com/visit.gif?us1283059064" alt="setstats" border="0" width="1" height="1"></noscript>

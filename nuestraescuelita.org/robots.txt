@@ -1,0 +1,6 @@
+Sitemap: http://www.nuestraescuelita.org/sitemap.xml
+
+User-agent: *
+Disallow: /internal/
+Disallow: /Recaudaciones_files/
+Disallow: /miescuelita/

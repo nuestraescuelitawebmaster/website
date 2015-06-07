@@ -1,0 +1,149 @@
+#wrap {
+   font-size: 1.3em;
+   width: 500px;
+   height:20px;
+   padding: 5px;
+   margin: 0 auto; 
+   background-color: #FFFFCC;
+   position: absolute;
+   top:110px;
+   left:10px;
+   align:left; 
+   font-size:10pt;
+   font-family: "comic Sans MS", sans-serif, Arial, Helvetica ;
+   z-index:3;
+}
+
+
+
+div.central{
+position:relative;
+top:10px;
+width:700px;
+height:3020px;
+background:#FFFFCC;
+}
+
+
+
+div.diva_heading2
+{
+position:absolute;
+top:40px;
+left:27px;
+z-index:2;
+}
+
+
+
+div.tren
+{
+width:200px;
+height:75px;
+position:absolute;
+top:5px;
+left:420px;
+z-index:4;
+
+}
+
+div.titulo
+{
+width: 680px ;
+height:30px;
+position:absolute;
+top:0px;
+left:20px;
+z-index:2;
+}
+
+div.rectangulo{
+width: 400px ;
+height:80px;
+position:absolute;
+top:25px;
+left:10px;
+z-index:1;
+background:#996633;
+}
+
+#ddimagetabs
+{
+position:absolute;
+top:120px;
+left:20px;
+z-index:2;
+}
+
+p.p1 
+{
+font-size:26px;
+color:white;
+font-family:comic Sans MS;
+}
+
+
+p.subpagina
+{
+font-family:"comic Sans MS",Arial, "Times New Romans";  
+font-size:12Pt; 
+color:#663300;
+align:left;
+} 
+
+p.normal
+{
+font-family:"comic Sans MS",Arial, "Times New Romans";  
+font-size:10Pt; 
+color:#663300;
+align:left;
+
+} 
+
+div.texto
+{
+position:absolute;
+top:120px;
+left:40px;
+width:620px;
+}
+
+div.tarjeta
+{
+position:absolute;
+top:200px;
+left:40px;
+width:400px;
+}
+
+div.donacion{
+position:absolute;
+top:160px;
+left:460px;
+width:200px;
+font-family:Arial, "Times New Romans"; 
+}
+
+div.sponsors{
+position:absolute;
+top:430px;
+left:460px;
+width:200px;
+font-family:Arial, "Times New Romans"; 
+}
+
+div.mapa 
+{
+padding-left:30px;
+float:right;
+}
+
+
+div.pie 
+{
+position:absolute;
+bottom:0px;
+left:0px;
+padding:10px;
+}
+

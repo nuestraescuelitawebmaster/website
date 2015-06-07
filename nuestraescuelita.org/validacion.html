@@ -1,0 +1,82 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42600327-1', 'nuestraescuelita.org');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">
+function validate_required(field,alerttxt)
+{
+with (field)
+  {
+  if (value==null||value=="")
+    {
+    alert(alerttxt);return false;
+    }
+  else
+    {
+    return true;
+    }
+  }
+}
+
+function validate_form(thisform)
+{
+with (thisform)
+  {
+  if (validate_required(email,"Email must be filled out!")==false)
+  {email.focus();return false;}
+  }
+}
+</script>
+</head>
+
+
+<!--
+<body>
+<form action="../_b6.php" onsubmit="return validate_form(this)" method="post">
+Email: <input type="text" name="email" size="30">
+<input type="submit" value="Submit">
+</form>
+</body>
+
+
+<body  "bgcolor:"#FF0000" background="../images/Playtime_background_yellow.jpg"> 
+
+-->
+
+
+<form id="f" name="formularillo" action="../_b6.php"  method="post" align="left" onsubmit="return validate_form(this)"  >
+
+Nombre: <input type="text" name="nombre" size="20px"/>   
+ 
+<br><br>
+eMail: <input type="text" name="email" size="20px"/> 
+<br><br>
+
+<input name="subm"  value="Enviar" type="submit" /> 
+
+
+</form>
+
+<div id="panel">
+</div>
+
+
+
+
+
+</body>
+
+</html> 
+
