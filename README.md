@@ -1,2 +1,3 @@
 # website
-website de la escuelita
+Codigo fuente de la pagina
+www.nuestraescuelita.org
