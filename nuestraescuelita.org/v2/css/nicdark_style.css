@@ -119,6 +119,7 @@ p.center,h1.center,h2.center,h3.center,h4.center,h5.center,h6.center{ text-align
 p.right,h1.right,h2.right,h3.right,h4.right,h5.right,h6.right, span.right{ float: right; }
 /*size*/
 p{ font-size:15px; line-height: 22px; color:#a4a4a4; font-family: 'Raleway', sans-serif; }
+ul { font-size:15px; line-height: 22px; color:#a4a4a4; font-family: 'Raleway', sans-serif; }
 h1{ font-size: 30px; line-height: 30px; }
 h1.extrasize{ font-size: 45px; line-height: 45px; }
 h2{ font-size: 25px; line-height: 25px; }
