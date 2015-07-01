@@ -120,6 +120,9 @@ p.right,h1.right,h2.right,h3.right,h4.right,h5.right,h6.right, span.right{ float
 /*size*/
 p{ font-size:15px; line-height: 22px; color:#a4a4a4; font-family: 'Raleway', sans-serif; }
 ul { font-size:15px; line-height: 22px; color:#a4a4a4; font-family: 'Raleway', sans-serif; }
+ol.white { font-size:15px; line-height: 22px; color:white; font-family: 'Raleway', sans-serif; }
+ol.gray { font-size:15px; line-height: 22px; color:#a4a4a4; font-family: 'Raleway', sans-serif; }
+ol.faq { font-size:15px; line-height: 30px; color:#a4a4a4; font-family: 'Raleway', sans-serif; }
 h1{ font-size: 30px; line-height: 30px; }
 h1.extrasize{ font-size: 45px; line-height: 45px; }
 h2{ font-size: 25px; line-height: 25px; }
